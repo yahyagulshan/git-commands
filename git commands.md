@@ -17,13 +17,20 @@ Check status
 
 `git status`	 
 ---
-git add [file-name.txt]	 (Add a file to the staging area)
+Add a file to the staging area
+`git add [file-name.txt]	`
 ---
-git add -A	( Add all new and changed files to the staging area)
+ Add all new and changed files to the staging area
+
+`git add -A	`
 ---
-git commit -m "[commit message]"	 (Commit changes)
+(Commit changes)
+
+`git commit -m "[commit message]"`	 
 ---
-git rm -r [file-name.txt]	 ( Remove a file (or folder) )
+ Remove a file (or folder) 
+
+`git rm -r [file-name.txt]	` 
 
 
 # Branching & Merging
