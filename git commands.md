@@ -17,18 +17,22 @@ Check status
 
 `git status`	 
 ---
+
 Add a file to the staging area
 `git add [file-name.txt]	`
 ---
- Add all new and changed files to the staging area
+ 
+Add all new and changed files to the staging area
 
 `git add -A	`
 ---
-(Commit changes)
+
+Commit changes
 
 `git commit -m "[commit message]"`	 
 ---
- Remove a file (or folder) 
+
+Remove a file (or folder) 
 
 `git rm -r [file-name.txt]	` 
 
