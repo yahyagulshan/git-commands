@@ -1,11 +1,9 @@
 
 ### Getting & Creating Projects ###
-{{< admonition type=tip title="(Initialize a local Git repository )" open=true >}}
 
+Initialize a local Git repository 
 
-`git init `
-
-{{< /admonition >}}
+` git init `
 ---
 
 Create a local copy of a remote repository  
