@@ -1,5 +1,5 @@
 
-### Getting & Creating Projects
+## Getting & Creating Projects
 
 ### Initialize a local Git repository
 `git init`
@@ -10,9 +10,9 @@
 
 --- 
 
-# Basic Snapshotting
-
-git status	 (Check status)
+## Basic Snapshotting
+#### Check status
+`git status`	 
 ---
 git add [file-name.txt]	 (Add a file to the staging area)
 ---
