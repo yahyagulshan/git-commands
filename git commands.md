@@ -1,9 +1,10 @@
 
-# Getting & Creating Projects
-*Initialize a local Git repository*
+*Getting & Creating Projects*
+
+Initialize a local Git repository
 `git init`
 ---
-*Create a local copy of a remote repository*
+Create a local copy of a remote repository
 `git clone ssh://git@github.com/[username]/[repository-name].git` 
 
 
