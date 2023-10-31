@@ -1,13 +1,15 @@
 
-**Getting & Creating Projects**
+### Getting & Creating Projects
 
-Initialize a local Git repository `git init`
+Initialize a local Git repository 
+`git init`
 ---
 
-Create a local copy of a remote repository  `git clone ssh://git@github.com/[username]/[repository-name].git` 
+Create a local copy of a remote repository  
+`git clone ssh://git@github.com/[username]/[repository-name].git` 
 --- 
 
-**Basic Snapshotting**
+### Basic Snapshotting
 
 Check status  `git status`	 
 ---
