@@ -11,7 +11,7 @@ Create a local copy of a remote repository
 `git clone ssh://git@github.com/[username]/[repository-name].git ` 
 --- 
 
-### Basic Snapshotting ###
+***Basic Snapshotting**
 
 Check status  
 
@@ -37,7 +37,7 @@ Remove a file (or folder)
 `git rm -r [file-name.txt]	` 
 
 
-# Branching & Merging
+ **Branching & Merging**
 
 git branch	 ( List branches (the asterisk denotes the current branch) )
 ---
@@ -70,7 +70,7 @@ git stash	(Stash changes in a dirty working directory)
 git stash clear 	(Remove all stashed entries)
 
 
-# Sharing & Updating Projects
+**Sharing & Updating Projects**
 
 git push origin [branch name]	 (Push a branch to your remote repository)
 ---
