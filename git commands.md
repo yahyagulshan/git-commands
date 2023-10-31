@@ -1,7 +1,7 @@
 
 # Getting & Creating Projects
 
-__git init__ 
+_git init_ 
 
 *Initialize a local Git repository*
 ---
