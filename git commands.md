@@ -34,17 +34,21 @@ git add -A
 
 Commit changes
 
-git commit -m "[commit message]"  
+`git commit -m "[commit message]"  `
 
 ---
 
 Remove a file (or folder) 
 
-git rm -r [file-name.txt]	
+`git rm -r [file-name.txt]	`
 
+---
 Branching & Merging
 
-git branch	 ( List branches (the asterisk denotes the current branch) )
+---
+ 
+List branches (the asterisk denotes the current branch)
+git branch	 
 ---
 git branch -a	 ( List all branches (local and remote) )
 ---
