@@ -182,6 +182,10 @@ View changes (briefly)
 `git log --oneline	 `
 
 ---
+
 Preview changes before merging
 
 `git diff [source branch] [target branch]	  `
+
+---
+
