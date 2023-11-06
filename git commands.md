@@ -28,7 +28,7 @@ git add [file-name.txt]
  
 Add all new and changed files to the staging area
 
-git add -A	
+`git add -A	`
 
 ---
 
@@ -46,11 +46,16 @@ Remove a file (or folder)
 Branching & Merging
 
 ---
- 
-List branches (the asterisk denotes the current branch)
-git branch	 
+List branches the asterisk denotes the current branch 
+
+`git branch	` 
+
 ---
-git branch -a	 ( List all branches (local and remote) )
+
+List all branches (local and remote) 
+
+`git branch -a	` 
+
 ---
 git branch [branch name]	 (Create a new branch)
 ---
