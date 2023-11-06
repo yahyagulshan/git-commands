@@ -101,6 +101,7 @@ Discard changes to a file
 `git checkout -- [file-name.txt] `	 
 
 ---
+
 Merge a branch into the active branch
 
 `git merge [branch name]	` 
