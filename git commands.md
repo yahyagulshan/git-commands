@@ -57,59 +57,130 @@ List all branches (local and remote)
 `git branch -a	` 
 
 ---
-git branch [branch name]	 (Create a new branch)
+
+Create a new branch
+
+`git branch [branch name]	` 
+
 ---
-git branch -d [branch name]	 (Delete a branch)
+(Delete a branch)
+
+`git branch -d [branch name]	 `
+
 ---
-git push origin --delete [branch name]	 (Delete a remote branch)
+Delete a remote branch
+
+`git push origin --delete [branch name]	` 
+
 ---
 git checkout -b [branch name]	 (Create a new branch and switch to it)
+
 ---
-git checkout -b [branch name] origin/[branch name] 	(Clone a remote branch and switch to it)
+Clone a remote branch and switch to it
+
+`git checkout -b [branch name] origin/[branch name] `
+
 ---
-git branch -m [old branch name] [new branch name]	 (Rename a local branch)
+Rename a local branch
+
+`git branch -m [old branch name] [new branch name]	 `
+
 ---
-git checkout [branch name]	 (Switch to a branch)
+Switch to a branch
+
+`git checkout [branch name]	` 
+
 ---
-git checkout -	 (Switch to the branch last checked out)
+Switch to the branch last checked out
+
+`git checkout -	 `
+
 ---
-git checkout -- [file-name.txt]	 (Discard changes to a file)
+Discard changes to a file
+
+`git checkout -- [file-name.txt] `	 
+
 ---
-git merge [branch name]	 (Merge a branch into the active branch)
+Merge a branch into the active branch
+
+`git merge [branch name]	` 
+
 ---
-git merge [source branch] [target branch]	 (Merge a branch into a target branch)
+Merge a branch into a target branch
+
+`git merge [source branch] [target branch]	 `
+
 ---
-git stash	(Stash changes in a dirty working directory)
+Stash changes in a dirty working directory
+
+`git stash`	
+
 ---
-git stash clear 	(Remove all stashed entries)
+Remove all stashed entries
+
+`git stash clear` 	
 
 
 Sharing & Updating Projects
 
-git push origin [branch name]	 (Push a branch to your remote repository)
----
-git push -u origin [branch name]	 ( Push changes to remote repository (and remember the branch))
----
-git push	 ( Push changes to remote repository (remembered branch) ) 
----
-git push origin --delete [branch name]	 (Delete a remote branch)
----
-git pull	 (Update local repository to the newest commit)
----
-git pull origin [branch name]	 (Pull changes from remote repository)
----
-git remote add origin ssh://git@github.com/[username]/[repository-name].git  (Add a remote repository)
----
-git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	 (Set a repository's origin branch to SSH)
+Push a branch to your remote repository
 
+`git push origin [branch name]	 `
 
+---
+Push changes to remote repository (and remember the branch)
+
+`git push -u origin [branch name]	` 
+
+---
+Push changes to remote repository (remembered branch) 
+
+`git push	 `
+
+---
+Delete a remote branch
+
+`git push origin --delete [branch name]	 `
+
+---
+Update local repository to the newest commit
+
+`git pull	 `
+
+---
+Pull changes from remote repository
+
+`git pull origin [branch name]	` 
+
+---
+Add a remote repository
+
+`git remote add origin ssh://git@github.com/[username]/[repository-name].git  `
+
+---
+Set a repository's origin branch to SSH
+
+`git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	 `
+
+---
 Inspection & Comparison
 
-git log	 (View changes)
 ---
-git log --summary	 ( View changes (detailed) )
----
-git log --oneline	 ( View changes (briefly) )
----
-git diff [source branch] [target branch]	  (Preview changes before merging)
+View changes
 
+`git log	 `
+
+---
+View changes (detailed) 
+
+`git log --summary	 `
+
+---
+View changes (briefly) 
+
+`git log --oneline	 `
+
+---
+Preview changes before merging
+
+`git diff [source branch] [target branch]	  `
